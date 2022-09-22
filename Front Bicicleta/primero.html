@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introducción formularios web</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="#"  method="get" name="datosBicicletas">
+
+    <label class="titulo">Primer Formulario</label><br>
+	<label for="id">Id</label>
+	<input type="number" name="id" id="nombre" placeholder="Ingrese Id" required="required"/>
+
+	<label for="brand">Brand</label>
+	<input type="text" name="brand" id="brand" placeholder="Ingrese Marca"/>
+
+	<label for="model">Model</label>
+	<input type ="number" name="model" id="model" placeholder="Ingrese Modelo"/>
+
+    <label for="category_id">Categoria</label>
+	<input type ="number" name="category_id" id="category_id" placeholder="Ingrese categoría"/>
+
+    <label for="name">Nombre</label>
+	<input type ="text" name="name" id="name" placeholder="Ingrese nombre" max="4000"/>
+
+
+    
+	<input type="submit" name="enviar" value="Enviar"/>
+</form>
+
+</body>
+</html>
